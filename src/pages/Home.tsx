@@ -1,13 +1,10 @@
 function Home() {
   return (
-    <div className="page home">
-      <div className="relative h-full grid grid-cols-3 gap-8">
+    <div className="relative page home">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8">
         <div className="relative">
-          <div className="px-8">
-            <img src="./img/home3.png" alt="home3" className="" />
-          </div>
-          <div className="absolute bottom-0 left-0">
-            <img src="./img/home1.png" alt="home1" className="" />
+          <div className="mx-auto md:mx-0 px-20 md:px-8">
+            <img src="./img/home3.png" alt="home3" className="w-full" />
           </div>
         </div>
         <div className="col-span-2 flex flex-col px-8">
@@ -28,14 +25,22 @@ function Home() {
               DAPP
             </button>
           </div>
-          <div className="h-20 flex justify-end">
+          <div className="mt-12 xl:mt-0 h-20 flex justify-end">
             <img src="./img/1.png" alt="text1" className="h-full" />
           </div>
-          <div className="mt-auto">
+          <div className="mt-8 hidden xl:block">
             <img src="./img/home2.png" alt="home2" className="" />
           </div>
         </div>
-        <div className="absolute bottom-2 w-full flex justify-center">
+      </div>
+      <div className="md:mt-12 lg:mt-20 xl:hidden">
+        <img src="./img/home2.png" alt="home2" className="" />
+      </div>
+      <div className="absolute bottom-0 left-0 w-full">
+        <img src="./img/home1.png" alt="home1" className="w-1/2" />
+      </div>
+      <div>
+        <div className="absolute md:bottom-32 xl:bottom-2 w-full flex justify-center px-28">
           <div className="text-center">
             <h2 className="text-white text-2xl">
               JOIN The Don Mafia. VOTE on the Targets. REAP the Benefits.
@@ -46,7 +51,7 @@ function Home() {
             <p className="text-white text-lg">
               Art by Mike S Miller, Technology by soakverse Labs
             </p>
-            <img src="./img/2.png" alt="text2" className="h-28 mt-4" />
+            <img src="./img/2.png" alt="text2" className="h-16 xl:h-28 mt-4" />
           </div>
         </div>
         <div className="absolute bottom-2 right-8 h-20">
