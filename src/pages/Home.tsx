@@ -25,7 +25,7 @@ function Home() {
               DAPP
             </button>
           </div>
-          <div className="hidden md:block mt-8 lg:mt-12 xl:mt-0 h-20 flex justify-end">
+          <div className="hidden md:inline-flex mt-10 lg:mt-12 xl:mt-0 h-16 xl:h-20 flex justify-end">
             <img src="./img/1.png" alt="text1" className="h-full" />
           </div>
           <div className="mt-8 hidden xl:block">
@@ -40,9 +40,9 @@ function Home() {
         <img src="./img/home1.png" alt="home1" className="w-full" />
       </div>
       <div>
-        <div className="absolute bottom-48 md:bottom-32 xl:bottom-2 w-full flex justify-center px-8 md:px-28">
+        <div className="absolute bottom-48 md:bottom-32 lg:bottom-40 xl:bottom-2 w-full flex justify-center px-8 md:px-28">
           <div className="text-center">
-            <h2 className="text-white text-lg md:text-2xl">
+            <h2 className="text-white text-lg md:text-xl lg:text-2xl">
               JOIN The Don Mafia. VOTE on the Targets. REAP the Benefits.
             </h2>
             <p className="text-white mt-6 text-sm md:text-lg">
