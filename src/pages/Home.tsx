@@ -1,14 +1,14 @@
 function Home() {
   return (
     <div className="relative page home">
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8">
+      <div className="grid grid-cols-3 md:gap-8">
         <div className="relative">
-          <div className="mx-auto md:mx-0 px-20 md:px-8">
+          <div className="mx-0 px-4 md:px-8">
             <img src="./img/home3.png" alt="home3" className="w-full" />
           </div>
         </div>
-        <div className="col-span-2 flex flex-col px-8">
-          <div className="h-16 flex items-center justify-end gap-4 py-3">
+        <div className="col-span-2 flex flex-col px-4 md:px-8">
+          <div className="h-16 flex flex-wrap items-center justify-end gap-4 py-3">
             <div className="cursor-pointer h-full">
               <img src="./img/hd1.png" alt="hd1" className="h-full" />
             </div>
@@ -25,7 +25,7 @@ function Home() {
               DAPP
             </button>
           </div>
-          <div className="mt-12 xl:mt-0 h-20 flex justify-end">
+          <div className="hidden md:block mt-8 lg:mt-12 xl:mt-0 h-20 flex justify-end">
             <img src="./img/1.png" alt="text1" className="h-full" />
           </div>
           <div className="mt-8 hidden xl:block">
@@ -33,25 +33,25 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="md:mt-12 lg:mt-20 xl:hidden">
+      <div className="mt-16 md:mt-12 lg:mt-20 xl:hidden">
         <img src="./img/home2.png" alt="home2" className="" />
       </div>
-      <div className="absolute bottom-0 left-0 w-full">
-        <img src="./img/home1.png" alt="home1" className="w-1/2" />
+      <div className="absolute bottom-0 left-0 w-3/4 md:w-1/2">
+        <img src="./img/home1.png" alt="home1" className="w-full" />
       </div>
       <div>
-        <div className="absolute md:bottom-32 xl:bottom-2 w-full flex justify-center px-28">
+        <div className="absolute bottom-48 md:bottom-32 xl:bottom-2 w-full flex justify-center px-8 md:px-28">
           <div className="text-center">
-            <h2 className="text-white text-2xl">
+            <h2 className="text-white text-lg md:text-2xl">
               JOIN The Don Mafia. VOTE on the Targets. REAP the Benefits.
             </h2>
-            <p className="text-white mt-6 text-lg">
+            <p className="text-white mt-6 text-sm md:text-lg">
               The Don Mafia. Redefining the NFT landscape.
             </p>
-            <p className="text-white text-lg">
+            <p className="text-white text-sm md:text-lg">
               Art by Mike S Miller, Technology by soakverse Labs
             </p>
-            <img src="./img/2.png" alt="text2" className="h-16 xl:h-28 mt-4" />
+            <img src="./img/2.png" alt="text2" className="h-12 md:h-16 xl:h-28 mt-4" />
           </div>
         </div>
         <div className="absolute bottom-2 right-8 h-20">
