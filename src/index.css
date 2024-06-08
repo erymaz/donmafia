@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Corl';
+  src: local('Corl'), url(./fonts/Corleone-Due-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Corleone';
+  src: local('Corleone'), url(./fonts/Corleone-Regular.otf) format('opentype');
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.home {
+  height: calc(100vh - 80px);
+  background-image: url(/public/img/bg.png);
+}
+
+.text-stroke-1 {
+  -webkit-text-stroke: 1px #641311;
+}
+
+.text-stroke-2 {
+  -webkit-text-stroke: 1px #000;
+}
